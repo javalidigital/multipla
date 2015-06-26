@@ -1,0 +1,254 @@
+/*************************************************************************************************
+This is Straight CSS file that contains Straight version CSS along with the parallax with straight version
+**************************************************************************************************/
+.zee_straight .circle_button_bottom{
+	bottom:	-83.5px;
+}
+.zee_straight .circle_button_top{
+	top: -83.5px;
+}
+/**       2- Folio Zee Curve Shape                                     **/
+/* Parallex Css Starts */
+.parallex_wrapper {
+	min-height: 400px;
+	width: 100%;
+}
+.parallex_folio{
+	background-size: cover !important;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #fff;
+	min-height: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+	.zee_d_curve_bg1{
+		background-image: url(../images/curves_bg/curve-bg-1.jpg);
+	}
+	.zee_d_curve_bg2{
+		background-image: url(../images/curves_bg/curve-bg-2.jpg);
+	}
+	.zee_d_curve_bg3{
+		background-image: url(../images/curves_bg/curve-bg-3.jpg);
+	}
+/* Curve ends */
+	.zee_para_container .container{
+		padding-top: 100px;
+		padding-bottom: 96px;
+	}
+	/**		2.1- Curve Video		**/
+	/* .video_holder starts */
+	.zee_para_container .video_holder{
+		margin: 12px 0 10px;
+	}
+	/* .video_holder ends */
+	
+	/**		2.2- Curve Testimonial slider		**/
+	/* .testi_holder starts */
+	.zee_para_container .testi_holder{
+		margin: 12px 0 10px;
+	}
+	
+	/**		2.3- Statistics		**/
+	/* .stats_single starts */
+	.stats_single{
+		margin-bottom: 10px;
+	}
+	/* .stats_single ends */
+	.sec-map{
+		margin-top: 25px;
+		position: relative;
+	}
+/**       3- Navigation Primary (Sticky Navigation)                   **/
+/* menu-bar starts */
+
+/*.sticky-wrapper {
+	height: auto !important;
+}*/
+/**       5- Header                                                  **/
+.static_banner {
+	height: 950px;
+}
+/**       6- Homepage Sections							          	  **/
+/* Section Homepage General CSS starts */
+.section_holder{
+	
+}
+.section_container{
+	clear: both;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	position: relative;
+}
+/* Section Homepage General CSS ends */
+
+/**		16- Footer Section (map included)		**/
+/* Footer Starts*/
+/* .google_map starts */
+.zee_straight .google_map{
+	height: 450px;
+}
+.zee_straight .map_mask{
+	height: 120px;
+}
+/* .google_map ends */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	/**       5- Header                                                  **/
+	.static_banner {
+		height: 850px;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+	/**		2.1- Curve Video		**/
+	.zee_para_container .container{
+		padding-top: 90px;
+		padding-bottom: 86px;
+	}
+	/* .video_holder starts */
+	.zee_para_container .video_holder{
+		margin: 10px 0 10px;
+	}
+	/* .video_holder ends */
+	
+	/**		2.2- Curve Testimonial slider		**/
+	/* .testi_holder starts */
+	.zee_para_container .testi_holder{
+		margin: 10px 0 10px;
+	}
+	
+	/**		2.3- Statistics		**/
+	/* .stats_single starts */
+	.stats_single{
+		margin-bottom: 10px;
+	}
+	/* .stats_single ends */
+	
+	/**       5- Header                                                  **/
+	.static_banner {
+		height: 700px;
+	}
+	/**		6- Homepage Sections		**/
+	.section_container{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	
+	/**		16- Footer Section (map included)		**/
+	/* Footer Starts*/
+	/* .google_map starts */
+	.zee_straight .google_map{
+		height: 450px;
+	}
+	.zee_straight .map_mask{
+		height: 120px;
+	}
+	/* .google_map ends */
+
+}
+
+@media screen and (max-width: 767px) {
+	/**       2- Folio Zee Curve Shape                                     **/
+	/* Parallex Css Starts */
+	.parallex_wrapper {
+		min-height: 250px;
+	}
+	.parallex_folio{
+		min-height: 250px;
+	}
+	/**		2.1- Curve Video		**/
+	.zee_para_container .container{
+		padding-top: 80px;
+		padding-bottom: 76px;
+	}
+	/* .video_holder starts */
+	.zee_para_container .video_holder{
+		margin: 10px 0 10px;
+	}
+	/* .video_holder ends */
+	
+	/**		2.2- Curve Testimonial slider		**/
+	/* .testi_holder starts */
+	.zee_para_container .testi_holder{
+		margin: 10px 0 10px;
+	}
+	
+	/**		2.3- Statistics		**/
+	/* .stats_single starts */
+	.stats_single{
+		margin-bottom: 10px;
+	}
+	/* .stats_single ends */
+
+	/**       5- Header                                                  **/
+	.static_banner {
+		height: 550px;
+	}
+	/**		6- Homepage Sections		**/
+	.section_container{
+		padding-top: 80px;
+		padding-bottom: 60px;
+	}
+
+	/**		16- Footer Section (map included)		**/
+	/* Footer Starts*/
+	/* .google_map starts */
+	.zee_straight .google_map{
+		height: 400px;
+	}
+	.zee_straight .map_mask{
+		height: 120px;
+	}
+	/* .google_map ends */
+}
+
+@media screen and  (max-width: 480px) {
+	.zee_straight .circle_button_bottom{
+		bottom:	-50px;
+	}
+	.zee_straight .circle_button_top{
+		top: -50px;
+	}
+	
+	.zee_para_container .container{
+		padding-top: 60px;
+		padding-bottom: 56px;
+	}
+	
+	/**		2.3- Statistics		**/
+	/* .stats_single starts */
+	.stats_single{
+		margin-bottom: 10px;
+	}
+	/* .stats_single ends */
+	.sec-map{
+		margin-top: 0;
+	}
+	/**		5- Header		**/
+	.static_banner {
+		height: 340px;
+	}
+	/**		6- Homepage Sections		**/
+	.section_container{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	/**		16- Footer Section (map included)		**/
+	/* Footer Starts*/
+	/* .google_map starts */
+	.zee_straight .google_map{
+		height: 354px;
+	}
+	.zee_straight .map_mask{
+		height: 60px;
+	}
+	/* .google_map ends */
+}

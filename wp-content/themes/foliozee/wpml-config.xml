@@ -1,0 +1,67 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">map_in_footer</custom-field>
+		<custom-field action="copy">map_style</custom-field>
+		<custom-field action="copy">sound_cloud_url</custom-field>
+		<custom-field action="translate">quote_text</custom-field>
+		<custom-field action="translate">quote_author</custom-field>
+		<custom-field action="copy">hide_title</custom-field>
+		<custom-field action="translate">heading_2</custom-field>
+		<custom-field action="translate">heading_3</custom-field>
+		<custom-field action="copy">select_videos</custom-field>
+		<custom-field action="copy">youtube_video_id</custom-field>
+		<custom-field action="copy">vimeo_video_id</custom-field>
+		<custom-field action="copy">self_hosted_mp4</custom-field>
+		<custom-field action="copy">self_hosted_webm</custom-field>
+		<custom-field action="copy">self_hosted_poster</custom-field>
+		<custom-field action="copy">portfolio_image_format</custom-field>
+		<custom-field action="copy">select_menu_option</custom-field>
+		<custom-field action="copy">sticky_menu</custom-field>
+		<custom-field action="copy">always_show</custom-field>
+		<custom-field action="copy">menu_position</custom-field>
+		<custom-field action="copy">slidebar_show</custom-field>
+		<custom-field action="copy">folio_facebook</custom-field>
+		<custom-field action="copy">folio_linkedin</custom-field>
+		<custom-field action="copy">folio_twitter</custom-field>
+		<custom-field action="copy">folio_googleplus</custom-field>
+		<custom-field action="copy">folio_designation</custom-field>
+		<custom-field action="copy">folio_re_skill_name</custom-field>
+		<custom-field action="copy">folio_re_skill_percentage</custom-field>
+		<custom-field action="copy">folio_add_skill</custom-field>
+		<custom-field action="translate">heading_1</custom-field>
+		<custom-field action="translate">heading_2</custom-field>
+		<custom-field action="translate">portfolio_client</custom-field>
+		<custom-field action="copy">portfolio_url</custom-field>
+		<custom-field action="translate">portfolio_url_title</custom-field>
+		<custom-field action="translate">portfolio_tagline</custom-field>
+		<custom-field action="copy">portfolio_launch_project_link</custom-field>
+		<custom-field action="copy">sidebar_active</custom-field>
+		<custom-field action="copy">page_layout_option</custom-field>
+	</custom-fields>
+<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">folio_team</custom-type>
+</custom-types>	
+
+<taxonomies>
+	<taxonomy translate="1">project_categories</taxonomy>
+</taxonomies>
+	<admin-texts>
+		<key name="fdata">
+			<key name="main_heading" />
+			<key name="sub_heading" />
+			<key name="heading_desc" />
+			<key name="share_bar_title" />
+			<key name="portfolio_main_heading" />
+			<key name="portfolio_sub_heading" />
+			<key name="portfolio_heading_desc" />
+			<key name="footer_text" />
+			<key name="gmap_toggle_btn_txt" />
+			<key name="gmap_marker_title" />
+			<key name="word_404" />
+			<key name="main_heading_404" />
+			<key name="sub_heading_404" />
+			<key name="heading_desc_404" />
+		</key>
+	</admin-texts>
+</wpml-config>

@@ -1,0 +1,570 @@
+/*************************************************************************************************
+This is DARK tone CSS file that contains Dark theme style used in Folio Zee Unique and Creative HTML5 Template
+**************************************************************************************************/
+/**       1- General                                                   **/
+body {
+    background: #252525;
+}
+body #sb-site{
+    background: #252525;
+}
+
+iframe{
+	border: none;
+	
+}
+hr {
+    border-top: 1px solid #e3e3e3;
+}
+
+input, button, select, textarea{
+	color: #e3e3e3;
+}
+	a:hover, a:focus {
+		color: #888;
+	}
+code {
+    background-color: #F9F9F9;
+    border: 1px solid #E9E9E9;
+    color: #222222;
+}
+.bg_grey{
+	background-color: #151515;
+}
+/*******************************************************************/
+/********************* Global Elements Css Starts ******************/
+/* .folio-link-url */
+.folio-link-url{
+	color: #999999;
+}
+
+/* Button CSS starts */
+.button, a.button{
+	background-color: #FF3131;
+	border: 1px solid #FF3131;
+	color: #FFF;
+}
+	.button:hover, a.button:hover{
+		background-color: transparent;
+		color: #FF3131;
+	}
+
+input[type="submit"]{
+	background-color: #FF3131;
+	border: 1px solid #FF3131;
+	color: #FFF;
+}
+	input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus{
+		color: #FF3131;
+		background-color: transparent;
+	}
+	/* .toggle_section_button */
+	.circle_button holder{
+		position: relative;
+	}
+	.circle_button{
+		background-color: #252525;
+	}
+	/* .toggle_section_button */
+	/* */
+/* Button CSS ends */
+
+/* Form Elements CSS starts */
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{
+	border: 1px solid rgba(242, 242, 242, 0.3);
+	color: #e3e3e3;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus{
+	color: #e3e3e3;
+}
+/********************* Global Elements Css ends ******************/
+/*******************************************************************/
+
+/**       2- Folio Zee Curve Shape                                     **/
+/* Curve starts */
+/* .zee_d_curve_container double curves top and bottom starts */
+	.zee_d_curve_container:before{
+		background: #252525;
+	}
+	.zee_d_curve_container:after{
+		background: #252525;
+	}
+.zee_curve_container .zee_curve_left{
+    border-left: 610px solid #252525;
+}
+.zee_curve_container .zee_curve_right{
+    border-right: 610px solid #252525;
+}
+	/* For Grey Color DOUBLE CURVES SHAPE */	
+	.zee_curve_container.bottom_grey:after, .zee_curve_container.top_grey:before{
+		background: #151515;
+	}
+		.zee_curve_container.top_grey .zee_curve_left{ /* only for double curves */
+			border-left: 610px solid #151515;
+		}
+		.zee_curve_container.bottom_grey .zee_curve_right{ /* only for double curves */
+			border-right: 610px solid #151515;
+		}
+		
+/* .zee_t_curve_container double curves top and bottom starts */	
+	.zee_t_curve_container:before{
+		background: #252525;
+	}
+	.zee_b_curve_container:after{
+		background: #252525;
+	}
+	/* For Grey Curve Color top and buttom curves, one at a time */	
+		.zee_curve_container.top_c_grey .zee_curve_left:before{
+			border-left: 610px solid #151515;
+		}
+
+		.zee_curve_container.bottom_c_grey .zee_curve_right:before{
+			border-right: 610px solid #151515;
+		}
+/* Curve ends */
+/**		2.3- Statistics		**/
+	/* .stats_single starts */
+		.stats_single .stats_hgroup h3 span{
+			color: #e3e3e3;
+		}
+	/* .stats_single ends */
+	
+/**       6- Homepage Sections							          	  **/
+/* Section Homepage General CSS starts */
+	.section_container .hgroup h2{
+		color: #e3e3e3;
+	}
+/* Section Homepage General CSS ends */
+
+/**		7- About Section		**/
+.about_content_holder h3{
+	color: #e3e3e3;
+}
+.about_single h4{
+	color: #e3e3e3;
+}
+/**		8- Feature Portfolio Section		**/
+/* Project Starts */
+		.project .project_detail .project_text{
+			border-bottom: 1px solid rgba(221, 221, 221, 0.2);
+			margin: 0 0 15px 0;
+		}
+			.project .project_detail .project_text .hgroup h2{
+				color: #e3e3e3;
+			}
+			.project .project_detail .project_text .hgroup h3{
+				color: rgba(227, 227, 277, 0.6);
+			}
+			.project .project_detail .project_meta {
+				border-bottom: 1px solid rgba(221, 221, 221, 0.2);
+			}
+			.project .project_detail .project_meta span{
+				color: #e3e3e3;
+			}
+			.project .project_detail .project_meta .meta_title:after{
+				background: #777777;
+			}
+/* Project Ends */
+
+/**		9- Services Section		**/
+/* .service_single starts */
+		.service_single .icon_holder .icon_shape{
+			background-color: transparent;
+		}
+		.service_single .service_right h4{
+			color: #e3e3e3;
+		}
+/* .service_single ends */
+	
+/**		10- Simple text Section		**/
+/* .simple_text starts */
+		.simple_text .text_holder h4{
+			color: #e3e3e3;
+		}
+/* .simple_text ends */
+
+/**		11- Portfolio Section		**/
+/* work_nav starts */
+	.work_nav ul li a{
+		color: #999999;
+	}
+/* work_nav ends */
+
+/**		12- Team Slider Section		**/
+/* .team_carousel starts */
+		.member_basic{
+			background: rgba(37, 37, 37, 0.9);
+		}
+			.member_basic .member_name{
+				color: #e3e3e3;
+			}
+			.member_basic .member_designation{
+				color: #999999;
+			}
+/* .team_carousel ends */
+
+/* team_slider starts */
+		/* .team_stats starts */
+		.team_slider .team_stats .stats_bar_holder{
+			background: #151515;
+		}
+		.team_slider .team_stats .stats_title{
+			color: #e3e3e3;
+		}
+		/* .team_stats ends */
+		
+		/* team_description starts */
+		.team_description h3{
+			color: #e3e3e3;
+		}
+		/* team_description ends */
+/* team_slider ends */
+
+/**		14- Home Blog Section		**/
+/* .hm_blog_post starts */
+			/* quote_post Starts */
+			.quote_post .quote{
+				background: #151515;/*rgba(239, 239, 239, 1);*/
+			}
+			.quote_post .quote:before{
+				color: #999999;
+			}
+			.quote_post .quote p{
+				color: #e3e3e3;
+			}
+			/* quote_post Ends */
+					.post .post_content .meta_holder .title_holder .post_title a{
+						color: #c8c8c8;
+					}
+			.post .post_content .meta_holder .post_meta{
+				color: #777777;
+			}
+/* .hm_blog_post ends */
+
+/**		15- Contact Section		**/
+	.contact_info h4{
+		color: #e3e3e3;
+	}
+
+/**      17- Content area inner Pages    							  **/
+/* Content area is used in between blog top heading section */
+	/* folio_headings starts */
+	.content_bar h2.folio_h2{
+		color: #e3e3e3;
+
+	}
+		.content_bar h2.folio_h2:before{
+			background: #e3e3e3;
+		}
+	/* folio_headings ends */
+
+.content_bar h1, .content_bar .h1, .content_bar h1 a, .content_bar .h1 a,  
+.content_bar h2, .content_bar .h2, .content_bar h2 a, .content_bar .h2 a,
+.content_bar h3, .content_bar .h3, .content_bar h3 a, .content_bar .h3 a,
+.content_bar h4, .content_bar .h4, .content_bar h4 a, .content_bar .h4 a, 
+.content_bar h5, .content_bar .h5, .content_bar h5 a, .content_bar .h5 a,
+.content_bar h6, .content_bar .h6, .content_bar h6 a, .content_bar .h6 a{
+	color: #e3e3e3;
+}
+.content_bar p{
+	color: #777777;
+}
+	.content_bar pre {
+		background: none repeat scroll 0 0 #2f2f2f;
+		border: 1px solid #151515;
+		color: #999999;
+	}	
+/* content_bar Styling Ends*/
+
+/**		18- Internal Section (includes headings group on top)		**/
+/* .internal_header Starts */
+	.internal_header .hgroup h2{
+		color: #e3e3e3;
+	}
+	.internal_header .hgroup h3{
+		color: #e3e3e3;
+	}
+	.internal_header .hgroup h4{
+		color: #777777;
+	}
+/* .internal_header Ends */
+
+/**		19- Inner Blog		**/
+/* .blog_post Starts */
+			.blog_listing .meta_holder .comments span{
+				color: #e3e3e3;
+			}
+	/* social_media starts */
+	.social_media{
+		background-color: #2f2f2f;
+	}
+	.social_media > span{
+		color: #e2e2e2;
+	}
+	/* social_media starts */
+/* .blog_post Ends */
+
+/* pagination start */ 
+	 /*.wp-pagenavi & wp_corenavi starts*/
+	.folio_navigation{
+		border-top: 1px solid #2f2f2f;
+	}
+	.folio_navigation  .wp-pagenavi a, .folio_navigation  .wp_corenavi a.page-numbers {
+		color: #747474;
+	}
+	.wp-pagenavi a:hover, .folio_navigation  .wp_corenavi a:hover{		
+		background: #2f2f2f;
+		color: #747474;
+	}
+	/*.wp-pagenavi  & wp_corenavi starts*/
+	
+	/* .page_links starts */
+	.page_links_holder{
+		border-top: 1px solid #2f2f2f;
+	}
+	.page_links > a {
+		color: #747474;
+	}
+	.page_links > a:hover{		
+		background: #2f2f2f;
+		color: #747474;
+	}
+	/* .page_links ends */
+/* pagination end */
+/* .navigation Starts (Single post) */
+	.page_nav {
+		border-top: 1px solid #2f2f2f;
+	}
+		/* .navigation (for Project single page) */
+	.page_nav a{
+		background: #2f2f2f;
+		color: #747474;
+	}
+	.page_nav a .fa{
+		font-size: 14px;
+	}
+		.page_nav a:hover{
+			background: #FF3131;
+			color: #ffffff;
+		}
+/* .navigation Ends (Single post) */
+
+/**		20- Sidebar and Widgets		**/
+/* side_bar Starts*/
+
+.widget-title {
+	color: #e3e3e3;
+}
+
+.widget{
+	border-bottom: 1px solid #747474;
+}
+
+
+	
+	/* widget_recent_entries Starts*/
+	.widget_recent_entries ul li a {
+		color: #e3e3e3;
+	}
+	/* widget_recent_entries Ends*/
+	
+	/* widget tagcloud starts */
+	.tagcloud a{
+		background: #2f2f2f;
+		color: #747474;
+	}
+	/* widget tagcloud ends */
+	
+	/* widget_kraft_slider starts */
+		.widget_kraft_slider .bx-wrapper .bxslider .slider_caption h3 a{
+			color: #e3e3e3;
+		}
+		
+		.widget_kraft_slider .bx-wrapper .bxslider .slider_caption p {
+			color: #777777;
+		}
+		
+	/* widget_kraft_slider ends */
+	
+	/* widget_search, widget_kraft_search Starts*/
+	#s {
+		border-right: none;
+	}
+	
+	#searchsubmit {
+		background: url(../images/search.png) no-repeat scroll 40% center rgba(242, 242, 242, 0.1);
+		border: 1px solid rgba(75, 75, 75, 0.6);
+		border-left: none;
+	}
+	/* widget_search, widget_kraft_search Ends*/
+
+/* sidebar Ends*/			
+
+/**      21- Blog Comments Section                  					  **/
+/* comments_section Starts */
+#comments_section h3 {
+	color: #e3e3e3;
+}
+ #comments_section h3 span{
+	 color: #e3e3e3;
+ }
+ 
+	#comments_section h3 .count {
+		color: #e3e3e3;
+	}
+
+	#comments .commentlist li { 
+		border-bottom: 1px solid rgba(226, 226, 226, 0.1);
+	}
+	#comments .commentlist li cite.fn, #comments .commentlist li cite.fn a {
+		color: #e3e3e3;
+	}
+/* comments_section Ends */
+
+/**		22- Shortcodes and Styling		**/
+/**      22.2- Buttons Styles			                 				  **/
+/*-----------------------------------------------------------------------------------*/
+/*	Button Styles
+/*-----------------------------------------------------------------------------------*/
+/* .button.button-dark starts */
+.button.button-dark, a.button.button-dark{
+	background-color: #111111;
+	border: 1px solid #111111;
+	color: #FFF;
+}
+	.button.button-dark:hover, a.button.button-dark:hover{
+		background-color: transparent;
+		color: #111111;
+	}
+/* .button.button-dark ends */
+
+/**      22.3- Tabs Styles			                 				  **/	
+/*-----------------------------------------------------------------------------------*/
+/* Tab Styles
+/*-----------------------------------------------------------------------------------*/
+.folio-tabs .folio-nav li {
+	background: #2f2f2f;
+	border: 1px solid #151515;
+	border-right: 1px solid #151515;
+	border-left: 1px solid #151515;
+	border-bottom: 1px solid #151515;
+}
+.folio-tabs .folio-nav .ui-tabs-selected, .folio-tabs .folio-nav .ui-tabs-active{
+	background: #2f2f2f;
+	border: 1px solid #151515;
+	border-bottom-color: #2f2f2f;
+	
+}
+.folio-tabs .folio-nav li a {
+    color: #e3e3e3;
+}
+.folio-tabs .folio-tab {
+	border: 1px solid #151515;	
+	background: #2f2f2f;
+}
+
+/**      22.4- Toggles Styles			                 				  **/
+/*-----------------------------------------------------------------------------------*/
+/*	Toggle Styles
+/*-----------------------------------------------------------------------------------*/
+.folio-toggle .folio-toggle-title {
+	background-color: #2f2f2f;
+	border: 1px solid #151515;
+	color: #e3e3e3;
+}
+
+/**      22.4- Accordion Styles			                 				            **/
+/*-----------------------------------------------------------------------------------*/
+/*	Accordion Styles
+/*-----------------------------------------------------------------------------------*/
+.folio-accordion .folio-accordion-title{
+	background-color: #2f2f2f;
+	border: 1px solid #151515;
+	color: #e3e3e3;
+}
+	.folio-accordion .folio-accordion-title a{
+		color: #e3e3e3;
+	}
+/**      22.5- Pricing Tables Styles			                 				  **/
+/*-----------------------------------------------------------------------------------*/
+/* Folio Pricing Table Styles		
+/*-----------------------------------------------------------------------------------*/
+.folio_pricing_single{
+	background: #2f2f2f;
+}
+
+.folio_pricing_single .price_title{
+	background: #151515;
+}
+	.folio_pricing_single .price_title:after{
+		background: #2f2f2f;
+	}
+	.folio_pricing_single .price_title h2{
+		color: #999999;
+	}
+	.folio_pricing_single.favourite_pricing .price_title h2{
+		color: #FFFFFF;
+	}
+.folio_pricing_single .price_cost{
+	padding: 47px 15px;
+	text-align: center;
+}
+	.folio_pricing_single .price_cost .price{
+		color: #e3e3e3;
+	}
+	
+	.folio_pricing_single .price_cost .duration{
+		color: #e3e3e3;
+	}
+	.folio_pricing_single.dark_pricing .pricing_details .button{
+		background-color: #111111;
+		border: 1px solid #111111;
+	}
+		.folio_pricing_single.dark_pricing .pricing_details .button:hover{
+			color: #111111;
+		}
+
+
+/**      22.6- Quotes Styles			                 				  **/
+/*-----------------------------------------------------------------------------------*/
+/*	Quotes Styles
+/*-----------------------------------------------------------------------------------*/
+
+	/* quote_styling Starts */
+	
+	/* blockqoute */ 
+	.content_bar .quote_4, .content_bar .quote_5{
+		background: #2f2f2f;/*rgba(239, 239, 239, 1);*/
+	}
+	/* blockqoute p */
+	.content_bar .quote_1 p, .content_bar .quote_4 p , .content_bar .quote_5 p{
+		color: #e3e3e3;
+	}
+	.content_bar .quote_2 p, .content_bar .quote_3 p {
+		color: #e3e3e3;
+	}
+	/* blockqoute strong */
+
+	/* quote_styling Ends */
+
+/**      22.8- Statistics Styles			                 				  **/
+/*-----------------------------------------------------------------------------------*/
+/* Folio Stats Styles		
+/*-----------------------------------------------------------------------------------*/
+/* .folio_stats Starts */
+ /*(Same as parallax 8.2- Statistics Section)*/
+/* .folio_stats Ends */
+
+
+/**		23- 404 section		**/
+			.section_404 .hgroup .heading_left h1 {
+				color: rgba(255, 255, 255, 0.1);/*#e2e2e2;*/
+			}
+			.section_404 .hgroup h2{
+				color: #e3e3e3;
+			}
+			.section_404 .hgroup h3{
+				color: #e3e3e3;
+			}
+/* Section Homepage General CSS ends */

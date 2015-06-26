@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+/*For Header Module*/
+	.folio_sliders, .folio_sliders > .wpb_element_wrapper {
+		background: no-repeat url(../images/icons/icon_header.png) !important;
+	}
+	/*For Main Heading*/
+	.icon_folio_heading, .wpb_folio_main_heading > .wpb_element_wrapper {
+		background: no-repeat url(../images/icons/icon_heading.png) !important;
+	}
+
+	/*For about us module*/
+	.icon_aboutus, .wpb_folio_about {
+		background-image:url(../images/icons/icon_aboutus.png) !important;
+		background-repeat:no-repeat !important;
+	}
+
+	/*For portfolio carousel module*/
+	.icon_carousel, .wpb_folio_portfolio_carousel > .wpb_element_wrapper  {
+		background-image:url(../images/icons/icon_carousel.png) !important;
+		background-repeat:no-repeat !important;
+	}
+
+	/*For Services*/
+	.icon_services_folio, .wpb_services {
+		background: no-repeat url(../images/icons/icon_services.png) !important;
+	}
+	/*for service*/
+	.service_icon, .wpb_service > .wpb_element_wrapper {
+		background: no-repeat url(../images/icons/icon_services.png) !important;
+	}
+	/*Parallex Heading*/
+	.wpb_folio_parallex_heading > .wpb_element_wrapper {
+		background: no-repeat url(../images/icons/icon_heading.png) !important;
+	}
+	/*Parallex Services*/
+	.icon_folio_para_service, .wpb_folio_parallex_services > .wpb_element_wrapper {
+		background: no-repeat url(../images/icons/icon_featured.png) !important;
+	}
+	/*Portfolio*/
+	.icon_folio_portfolio, .wpb_folio-portfolio-grid > .wpb_element_wrapper {
+		background: no-repeat url(../images/icons/icon_portfolio.png) !important;
+	}
+	/*Fun & facts*/
+	.wpb_funfacts > .wpb_element_wrapper, .icon_folio_funfact {
+		background: no-repeat url(../images/icons/icon_funfacts.png) !important;
+	}
+	/*Team*/
+	.wpb_team, .icon_folio_team, .wpb_folio_team_post > .wpb_element_wrapper {
+		background-image: url(../images/icons/icon_team.png) !important;
+		background-repeat:no-repeat !important;
+	}
+
+	/*Video Qoute*/
+	.icon_folio_video_qoute, .wpb_folio_quote_video > .wpb_element_wrapper {
+		background-image: url(../images/icons/icon_video_quote.png) !important;
+		background-repeat:no-repeat !important;
+	}
+	
+
+	/*Client Block*/
+	.wpb_clients_block, .icon_folio_clients {
+		background: no-repeat url(../images/icons/icon_client.png) !important;
+	}
+	/*Single Client*/
+	.wpb_client > .wpb_element_wrapper, .icon_folio_client {
+		background: no-repeat url(../images/icons/icon_clients.png) !important;
+	}
+	/*Blog Grid*/
+	.wpb_folio-blog-grid > .wpb_element_wrapper, .icon_folio_blog {
+		background-image: url(../images/icons/icon_blog.png) !important;
+		background-repeat: no-repeat !important;
+	}
+	/*Testmonials*/
+	.icon_folio_testmonials, .wpb_testmonials {
+		background: no-repeat url(../images/icons/icon_testmonial.png) !important;
+	}
+	/*Single Testmonial*/
+	.wpb_testmonial > .wpb_element_wrapper, .icon_testmonial_heading {
+		background: no-repeat url(../images/icons/icon_testmonial.png) !important;
+	}
+	/*Contact Info*/
+	.wpb_folio_contact_info > .wpb_element_wrapper, .icon_folio_contact_info {
+		background: no-repeat url(../images/icons/icon_contactinfo.png) !important;
+	}
+	/*Google Map*/
+	.icon_folio_google_map, .wpb_folio_google_map > .wpb_element_wrapper {
+		background: no-repeat url(../images/icons/icon_map.png) !important;
+	}
+	/*Folio Heading*/
+	.icon_folio_heading, .wpb_folio_heading > .wpb_element_wrapper {
+		background: no-repeat url(../images/icons/icon_heading.png) !important;
+	}
+	/*Custom Heading*/
+	.wpb_folio_custom_heading > .wpb_element_wrapper, .icon_folio_heading {
+		background: no-repeat url(../images/icons/icon_heading1.png) !important;
+	}
+	/*Button*/
+	.icon-wpb-ui-button {
+	}
+	/*Alerts*/
+	.icon_folio_alert, .wpb_folio_alert > .wpb_element_wrapper {
+		background: no-repeat url(../images/icons/icon_alerts.png) !important;
+	}
+	/*Spacer*/
+	.wpb_folio_spacer > .wpb_element_wrapper, .folio_spacer {
+		background: no-repeat url(../images/icons/icon_spacer.png) !important;
+	}
+	/*Animator*/
+	.icon_folio_animator, .wpb_folio_animator {
+		background-image: url(../images/icons/icon_animator.png) !important;
+		background-repeat:no-repeat !important;
+	}
+	/*Pricing table*/
+	.wpb_folio_pricing > .wpb_element_wrapper, .icon_folio_pricing {
+		background: no-repeat url(../images/icons/icon_table.png) !important;
+	}
+	/*Quotes*/
+	.icon_folio_quote, .icon_folio_quote > .wpb_element_wrapper {
+		background: no-repeat url(../images/icons/icon_quote.png) !important;
+	}
